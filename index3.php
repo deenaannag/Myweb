@@ -12,6 +12,21 @@
         
         <div class="row">
         <div class="col col-12 col-sm-6 col-md-6 col-xl-6">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+                    <td>Password</td>
+  
             <table class="table table-borderless">
    
         <tr>
@@ -50,24 +65,9 @@
        
     </div>
     
-    <div class="col col-12 col-sm-6 col-md-6 col-xl-6">
-        <table class="table table-borderless">
-        <tr>
-            <td>Username</td>
-            <td><input type="text" class="form-control"></td>
-        </tr>
-        <tr>
-            <td>Password</td>
-            <td><input type="password" class="form-control"></td>
-        </tr>
-        <br>
-        <tr>
-            <td></td>
-            <td><button class="btn btn-success">Register</button></td>
-        </tr>
-        </table>
-    </div>
 </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
 </body>
 </html>

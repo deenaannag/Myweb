@@ -6,29 +6,28 @@
     <title>Application</title>
 </head>
 <body>
+<table class="table">
     <tr>
         <td>name</td>
-        <td><input type="text"></td>
+        <td><input type="text" class="form-control"></td>
     </tr>
     <tr>
         <td>rollno</td>
-        <td><input type="text"></td>
+        <td><input type="text" class="form-control"></td>
     </tr>
     <p>
     <tr>
         <td>admno</td>
-        <td><input type="text"></td>
+        <td><input type="text" class="form-control"></td>
     </tr>
-    <p>
     <tr>
         <td>college</td>
-        <td><input type="text"></td>
+        <td><input type="text" class="form-control"></td>
     </tr>
-    <p>
     <tr>
         <td></td>
-        <td><button>submit</button></td>
+        <td><button class="btn btn-success">submit</button></td>
     </tr>
-    
+</table>
 </body>
 </html>
